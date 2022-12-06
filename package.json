@@ -1,0 +1,19 @@
+{
+  "name": "eslint-config-liting",
+  "version": "1.0.0",
+  "description": "eslint preset",
+  "main": "src/index.js",
+  "scripts": {},
+  "keywords": [
+    "eslint",
+    "eslintconfig"
+  ],
+  "author": "liting-yes",
+  "license": "MIT",
+  "dependencies": {
+    "eslint": "^8.29.0"
+  },
+  "peerDependencies": {
+    "eslint": ">= 8"
+  }
+}
