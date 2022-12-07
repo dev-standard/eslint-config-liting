@@ -1,7 +1,12 @@
 {
   "name": "eslint-config-liting",
   "version": "0.0.0",
-  "description": "eslint preset",
+  "description": "eslint preset of liting",
+  "private": false,
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org"
+  },
   "main": "src/index.js",
   "scripts": {
     "prepare": "husky install",
@@ -12,7 +17,12 @@
     "eslint",
     "eslintconfig"
   ],
-  "author": "liting-yes",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dev-standard/eslint-config-liting.git"
+  },
+  "homepage": "https://github.com/dev-standard/eslint-config-liting#readme",
+  "author": "liting-yes <luz.liting@gmail.com>",
   "license": "MIT",
   "devDependencies": {
     "@commitlint/cli": "^17.3.0",
@@ -28,9 +38,5 @@
   },
   "dependencies": {
     "eslint": "^8.29.0"
-  },
-  "publishConfig": {
-    "access": "public",
-    "registry": "https://registry.npmjs.org"
   }
 }
