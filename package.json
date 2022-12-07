@@ -11,7 +11,7 @@
   "scripts": {
     "prepare": "husky install",
     "format": "eslint --fix --color --ext .js",
-    "release": "release-it --dry-run --changelog"
+    "release": "read -p 'GITHUB_TOKEN: ' GITHUB_TOKEN && export GITHUB_TOKEN=$GITHUB_TOKEN && release-it --changelog"
   },
   "keywords": [
     "eslint",
@@ -28,6 +28,7 @@
     "@commitlint/cli": "^17.3.0",
     "@commitlint/config-conventional": "^17.3.0",
     "@release-it/conventional-changelog": "^5.1.1",
+    "dotenv-cli": "^6.0.0",
     "eslint-config-prettier": "^8.5.0",
     "eslint-plugin-prettier": "^4.2.1",
     "eslint-plugin-vue": "^9.8.0",
