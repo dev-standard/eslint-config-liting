@@ -3,17 +3,27 @@
   "version": "1.0.0",
   "description": "eslint preset",
   "main": "src/index.js",
-  "scripts": {},
+  "scripts": {
+    "prepare": "husky install",
+    "format": "eslint --fix --color --ext .js"
+  },
   "keywords": [
     "eslint",
     "eslintconfig"
   ],
   "author": "liting-yes",
   "license": "MIT",
+  "devDependencies": {
+    "@commitlint/cli": "^17.3.0",
+    "@commitlint/config-conventional": "^17.3.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "eslint-plugin-vue": "^9.8.0",
+    "husky": "^8.0.0",
+    "lint-staged": "^13.1.0",
+    "prettier": "^2.8.0"
+  },
   "dependencies": {
     "eslint": "^8.29.0"
-  },
-  "peerDependencies": {
-    "eslint": ">= 8"
   }
 }
