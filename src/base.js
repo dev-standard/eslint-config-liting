@@ -85,6 +85,7 @@ module.exports = {
     ],
 
     // suggestions
+    // eslint-disable-next-line
     'accessor-pairs': [
       'error',
       {
@@ -310,15 +311,7 @@ module.exports = {
     'no-lone-blocks': 'error',
     'no-lonely-if': 'error',
     'no-loop-func': 'error',
-    'no-magic-numbers': [
-      'warn',
-      {
-        detectObjects: true,
-        enforceConst: true,
-        ignoreArrayIndexes: true,
-        ignoreDefaultValues: true,
-      },
-    ],
+    'no-magic-numbers': 'off',
     'no-mixed-operators': [
       'error',
       {
@@ -545,6 +538,7 @@ module.exports = {
     ],
 
     // layout & Formatting
+    // eslint-disable-next-line
     'array-bracket-newline': [
       'error',
       {
@@ -667,7 +661,7 @@ module.exports = {
       'error',
       {
         code: 128,
-        comments: 64,
+        comments: 128,
         ignoreComments: false,
         ignoreRegExpLiterals: true,
         ignoreStrings: true,

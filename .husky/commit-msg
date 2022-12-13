@@ -1,3 +1,10 @@
+###
+ # @Date: 2022-12-07 23:11:29
+ # @Author: liting luz.liting@gmail.com
+ # @LastEditors: liting luz.liting@gmail.com
+ # @LastEditTime: 2022-12-13 23:18:38
+ # @FilePath: /eslint-config-liting/.husky/commit-msg
+### 
 #!/usr/bin/env sh
 . "$(dirname -- "$0")/_/husky.sh"
 
