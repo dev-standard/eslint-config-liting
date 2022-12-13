@@ -153,7 +153,7 @@ module.exports = {
       },
     ],
     'func-names': ['error', 'as-needed'],
-    'func-style': ['error', 'declaration', { allowArrowFunctions: true }],
+    'func-style': ['error', 'expression', { allowArrowFunctions: true }],
     'grouped-accessor-pairs': ['error', 'getBeforeSet'],
     'guard-for-in': 'error',
     'id-denylist': ['error', 'err', 'e', 'cb', 'callback'],
