@@ -11,7 +11,8 @@
   "scripts": {
     "prepare": "husky install",
     "format": "eslint --fix --color --ext .js",
-    "release": "release-it"
+    "release": "release-it",
+    "build": "unbuild"
   },
   "keywords": [
     "eslint",
@@ -30,14 +31,18 @@
     "@release-it/conventional-changelog": "^5.1.1",
     "husky": "^8.0.0",
     "lint-staged": "^13.1.0",
-    "release-it": "^15.5.1"
+    "release-it": "^15.5.1",
+    "unbuild": "^1.0.2"
   },
   "dependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.46.1",
+    "@typescript-eslint/parser": "^5.46.1",
     "eslint": "^8.29.0",
     "eslint-config-prettier": "^8.5.0",
     "eslint-plugin-prettier": "^4.2.1",
     "eslint-plugin-vue": "^9.8.0",
     "prettier": "^2.8.1",
+    "typescript": "^4.9.4",
     "vue-eslint-parser": "^9.1.0"
   }
 }
