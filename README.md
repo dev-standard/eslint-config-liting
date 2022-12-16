@@ -4,6 +4,8 @@ an eslint preset of liting-yes
 
 # support
 
+- JavaScript
+- TypeScript
 - Vue.js
 
 # Precaution
