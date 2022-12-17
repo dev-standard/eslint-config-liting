@@ -1,5 +1,5 @@
 {
   "*.js": [
-    "eslint --fix --color --ext .js"
+    "eslint --fix --color --ext .js --ignore-pattern /__tests__/"
   ]
 }

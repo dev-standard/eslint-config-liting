@@ -1,6 +1,5 @@
 {
   "extends": [
-    "./src/index.js",
-    "plugin:prettier/recommended"
+    "./src/index.js"
   ]
 }
