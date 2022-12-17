@@ -2,7 +2,7 @@
  * @Date: 2022-12-07 23:11:29
  * @Author: liting luz.liting@gmail.com
  * @LastEditors: liting luz.liting@gmail.com
- * @LastEditTime: 2022-12-13 23:28:16
+ * @LastEditTime: 2022-12-17 15:29:05
  * @FilePath: /eslint-config-liting/src/index.js
  */
 module.exports = {
@@ -12,12 +12,5 @@ module.exports = {
     es6: true,
     node: true,
   },
-  extends: ['./base.js', 'plugin:vue/base', './vue.js'],
-  overrides: [
-    {
-      extends: ['./vue.js'],
-      files: ['*.vue'],
-      parser: 'vue-eslint-parser',
-    },
-  ],
+  extends: ['./base.js', './ts.js', './vue.js', 'plugin:prettier/recommended'],
 }

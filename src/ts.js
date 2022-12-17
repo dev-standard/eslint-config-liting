@@ -2,13 +2,13 @@
  * @Date: 2022-12-14 22:45:22
  * @Author: liting luz.liting@gmail.com
  * @LastEditors: liting luz.liting@gmail.com
- * @LastEditTime: 2022-12-16 19:51:42
+ * @LastEditTime: 2022-12-17 14:55:33
  * @FilePath: /eslint-config-liting/src/ts.js
  */
 module.exports = {
   overrides: [
     {
-      extends: ['eslint:recommended', 'plugin:@typescript-eslint/eslint-recommended'],
+      extends: ['plugin:@typescript-eslint/eslint-recommended'],
       files: ['*.ts'],
       parser: '@typescript-eslint/parser',
       plugins: ['@typescript-eslint'],

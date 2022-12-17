@@ -5,14 +5,7 @@ var src = {
     es6: true,
     node: true
   },
-  extends: ["./base.js", "plugin:vue/base", "./vue.js"],
-  overrides: [
-    {
-      extends: ["./vue.js"],
-      files: ["*.vue"],
-      parser: "vue-eslint-parser"
-    }
-  ]
+  extends: ["./base.js", "./ts.js", "./vue.js", "plugin:prettier/recommended"]
 };
 
 export { src as default };

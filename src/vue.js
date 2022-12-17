@@ -1,13 +1,20 @@
 module.exports = {
   overrides: [
     {
+      extends: ['plugin:vue/vue3-recommended'],
       files: ['*.vue'],
-      rules: {
-        indent: 'off',
+      parser: 'vue-eslint-parser',
+      parserOptions: {
+        parser: {
+          js: 'espree',
+          ts: '@typescript-eslint/parser',
+        },
+        sourceType: 'module',
       },
     },
   ],
   rules: {
+    indent: 'off',
     // base
     'vue/comment-directive': [
       'error',
