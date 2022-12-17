@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-liting",
-  "version": "0.3.0",
+  "version": "0.3.1",
   "description": "eslint preset of liting",
   "private": false,
   "publishConfig": {

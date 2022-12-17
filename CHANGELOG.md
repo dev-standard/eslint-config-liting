@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.3.1](https://github.com/dev-standard/eslint-config-liting/compare/0.3.0...0.3.1) (2022-12-17)
+
+
+### Features
+
+* **test:** init ([65f6cd6](https://github.com/dev-standard/eslint-config-liting/commit/65f6cd6c75afc2c66ed0f2462e321cd6935ebddc))
+
 ## [0.3.0](https://github.com/dev-standard/eslint-config-liting/compare/0.2.1...0.3.0) (2022-12-16)
 
 
